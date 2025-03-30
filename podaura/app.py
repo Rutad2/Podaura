@@ -14,15 +14,25 @@ def index():
         blob = TextBlob(user_input)
         polarity = blob.sentiment.polarity
 
-        if polarity > 0.2:
+        # 🎭 More Mood Categories
+        if polarity > 0.6:
+            mood = "excited"
+        elif 0.3 <= polarity <= 0.6:
             mood = "happy"
-        elif polarity < -0.2:
-            mood = "sad"
-        elif polarity < 0.2 and polarity > -0.2:
+        elif 0.1 <= polarity < 0.3:
+            mood = "relaxed"
+        elif -0.1 < polarity < 0.1:
             mood = "neutral"
-        else:
+        elif -0.3 <= polarity <= -0.1:
+            mood = "melancholy"
+        elif -0.6 <= polarity < -0.3:
+            mood = "sad"
+        elif polarity <= -0.6:
             mood = "angry"
+        else:
+            mood = "stressed"
 
+        # Fetch podcasts for the detected mood
         suggestions = podcast_recommendations.get(mood, [])
 
     return render_template("index.html", mood=mood, suggestions=suggestions)
