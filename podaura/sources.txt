@@ -6,3 +6,24 @@ TextBlob: https://textblob.readthedocs.io/
 
 ## source 3
 Podcast links: from public podcast sources (Stitcher, TED, The Moth, etc.)
+
+https://www.tonyrobbins.com/podcast/
+https://www.npr.org/sections/how-i-built-this/
+https://www.ted.com/podcasts/ted-talks-daily
+https://tboypod.com/
+https://wondery.com/shows/smartless/
+https://www.stitcher.com/show/the-daily-smile
+https://themoth.org/podcast
+https://www.happinesslab.fm/
+https://www.goodlifeproject.com/podcast/
+https://podcasts.apple.com/us/podcast/awesome-with-alison/id1248644982
+https://www.nothingmuchhappens.com/
+https://calm-pills.com/
+https://www.sleepyradio.com/
+https://getsleepy.com/
+https://www.slowdownshow.org/
+https://www.iheart.com/podcast/105-stuff-you-should-know-26940277/
+https://www.ted.com/podcasts/ted-talks-daily
+https://99percentinvisible.org/
+https://www.nytimes.com/column/the-daily
+https://www.wnycstudios.org/podcasts/radiolab 
