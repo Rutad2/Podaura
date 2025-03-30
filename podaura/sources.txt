@@ -1,3 +1,8 @@
+## source 1
 Flask: https://flask.palletsprojects.com/
+
+## source 2
 TextBlob: https://textblob.readthedocs.io/
+
+## source 3
 Podcast links: from public podcast sources (Stitcher, TED, The Moth, etc.)
