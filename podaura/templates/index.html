@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Podaura 🎧</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Podaura</h1>
+        <form method="POST">
+            <label for="moodtext">How are you feeling today?</label><br>
+            <textarea name="moodtext" rows="3" required></textarea><br>
+            <button type="submit">Find Podcasts</button>
+        </form>
+
+        {% if mood %}
+            <h2>You seem {{ mood }}. Here are some podcasts:</h2>
+            <ul>
+                {% for name, link in suggestions %}
+                    <li><a href="{{ link }}" target="_blank">{{ name }}</a></li>
+                {% endfor %}
+            </ul>
+        {% endif %}
+    </div>
+</body>
+</html>
