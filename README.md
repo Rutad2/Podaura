@@ -21,6 +21,7 @@ Podaura is a mood-based podcast recommendation web app built at HooHacks 2025.
 ```bash
 git clone https://github.com/Rutad2/Podaura.git
 cd Podaura
+cd podaura
 pip install flask textblob
 python -m textblob.download_corpora
 python app.py
