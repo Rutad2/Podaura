@@ -1,0 +1,3 @@
+Flask: https://flask.palletsprojects.com/
+TextBlob: https://textblob.readthedocs.io/
+Podcast links: from public podcast sources (Stitcher, TED, The Moth, etc.)
